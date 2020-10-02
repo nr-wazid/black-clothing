@@ -49,6 +49,11 @@
       background-color: white;
       opacity: .7;
       position: absolute;
+
+      &:hover{
+        opacity: 1;
+        transition: .7s;    
+    }
   
       .title {
         font-weight: bold;
